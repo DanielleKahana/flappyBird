@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>Multiplayer Flappy Bird</title>
+      <link rel="stylesheet" type = "text/css" href = "stylesheet.css">
+      <script src="/socket.io/socket.io.js"></script>
+
+
+  </head>
+  <body>
+   <div id="header" align="center">
+       <img src="static/images/title.jpg">
+   </div>
+
+   <div id="start_game" align="center">
+       <h6 id="name">Enter your name</h6>
+       <input id="name_field" type="text">
+       </br></br>
+       <button id="start_btn">START</button>
+   </div>
+
+   <div id="gameDiv" align="center">
+   <canvas id="canvas" width="288" height="512"></canvas>
+   <script src="/static/game.js"></script>
+   </div>
+
+
+   
+
+  </body>
+</html>
